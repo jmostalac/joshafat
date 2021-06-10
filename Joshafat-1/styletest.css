@@ -1,0 +1,25 @@
+body{
+    background:#fffbf7;
+    color: black;
+}
+
+.reto1{
+    line-height: 10px;
+}
+
+h1{
+    color:#025157;
+}
+
+h2{
+    color: #46484c;
+}
+
+strong{
+    color: #8b8b8bcc;
+}
+
+button{
+    color: #fff;
+    background:#025157;
+}
