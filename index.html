@@ -12,7 +12,7 @@
         <a class="logo" href="/"></a>
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
         <nav class="navbar">
-            <ul>
+            <ul class="menu-item">
                 <li>Plataforma</li>
                 <li>Precios</li>
                 <li>Clientes</li>
@@ -23,6 +23,7 @@
         <div class="actions">
             <a href="login">Sign In</a>
             <button>Start free trial</button>
+
         </div>
     </header>
 
@@ -30,29 +31,67 @@
 
 <style>
     .header {
-        margin-top: 40px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin: 40px 20px 0 20px;
+        height: 45px;
+        font-family: sans-serif;
+        font-size: 0;
     }
 
     .header * {
         display: inline-block;
-    }
-
-    li {
-        display: inline;
+        font-size: 16px;
+        vertical-align: middle;
+        height: 100%;
+        line-height: 45px;
     }
 
     .logo {
         width: 15%;
     }
 
+    .logo>img {
+        height: 100%;
+    }
+
     .navbar {
         width: 70%;
+        text-align: center;
+        color: #025157;
+    }
+
+    .menu-item {
+        display: inline;
+        margin-right: 25px;
+        margin-left: 25px;
     }
 
     .actions {
         width: 15%;
+        text-align: right;
+        font-size: 14px;
+
+    }
+
+    .actions>* {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .actions a {
+        color: #67b54b;
+    }
+
+    .actions button {
+        color: white;
+        background-color: #67b54b;
+
+        padding: 12px 14px 12px 14px;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    li {
+        display: inline;
     }
 </style>
 
