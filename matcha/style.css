@@ -1,30 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matcha</title>
-</head>
-<body>
-    <header class="header">
-        <a class="logo" href="/"></a>
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
-        <nav class="navbar">
-            <ul class="menu-item">
-                <li>Plataforma</li>
-                <li>Precios</li>
-                <li>Clientes</li>
-                <li>Recursos</li>
-                <li>Nosotros</li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <a href="login">Sign In</a>
-            <button>Start free trial</button>
-        </div>
-    </header>
-</body>
-<style>
     .header {
         margin: 40px 20px 0 20px;
         height: 45px;
@@ -77,5 +50,3 @@
     li {
         display: inline;
     }
-</style>
-</html>
