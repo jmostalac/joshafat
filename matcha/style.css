@@ -1,3 +1,6 @@
+body {
+    background-color: #fffbf7;
+}
     .header {
         margin: 40px 20px 0 20px;
         height: 45px;
@@ -49,4 +52,23 @@
     }
     li {
         display: inline;
+    }
+    .publish h3 {
+        font-family: "Alegreya", serif;
+        font-size: 40px;
+        line-height: 48px;
+        color: green;
+    }
+    .publish>p {
+        font-size: 16px;
+        color: blue;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .publish>form {
+        display: flex;
+    }
+    .publish>form p {
+        color: blueviolet;
+        margin-right: 18px;
     }
