@@ -89,6 +89,7 @@ li {
     width: 120px;
     margin-top: 10px;
 }
+
 .fixed-header {
     position: fixed;
     top: 0;
@@ -96,3 +97,103 @@ li {
     right: 0;
     background-color: #fffbf7;
 }
+
+.header--alt {
+    font-size: 55px;
+    font-weight: 700;
+    color: #025157;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    margin-top: 0;
+
+}
+
+
+.flex-container > p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+font-weight: 400;
+font-weight: 400;
+font-size: 18px;
+color: #4a4a4a;
+
+}
+
+
+.btn-beefy {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+    border: 0px;
+
+
+
+
+}
+
+
+.btn-beefy:hover {
+
+
+    background-color: #67b54b;
+color: #fff;
+}
+
+
+.logos__cont__inn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+    -webkit-align-items: left;
+    -ms-flex-align: left;
+    align-items: left;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.flex-container {
+
+    -ms-flex: 0 0 66.666667%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+
+
+}
+
+
+.profile {
+    -ms-flex: 0 0 33.333333%;
+-webkit-box-flex: 0;
+-webkit-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
