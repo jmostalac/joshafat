@@ -89,7 +89,6 @@ li {
     width: 120px;
     margin-top: 10px;
 }
-
 .fixed-header {
     position: fixed;
     top: 0;
@@ -97,7 +96,6 @@ li {
     right: 0;
     background-color: #fffbf7;
 }
-
 .header--alt {
     font-size: 55px;
     font-weight: 700;
@@ -105,22 +103,16 @@ li {
     letter-spacing: -2px;
     margin-bottom: 30px;
     margin-top: 0;
-
 }
-
-
-.flex-container > p {
+.flex-container>p {
     margin-top: 0;
     margin-bottom: 1.5rem;
-    font-family: 'IBM Plex Sans',Arial,sans-serif;
-font-weight: 400;
-font-weight: 400;
-font-size: 18px;
-color: #4a4a4a;
-
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4a4a4a;
 }
-
-
 .btn-beefy {
     font-style: normal;
     font-weight: 600;
@@ -133,21 +125,11 @@ color: #4a4a4a;
     border-radius: 8px;
     transition: all .2s ease-in-out;
     border: 0px;
-
-
-
-
 }
-
-
 .btn-beefy:hover {
-
-
     background-color: #67b54b;
-color: #fff;
+    color: #fff;
 }
-
-
 .logos__cont__inn {
     display: -webkit-box;
     display: -webkit-flex;
@@ -164,36 +146,67 @@ color: #fff;
     max-width: 900px;
     margin: 0 auto;
 }
-
-
-
 .flex-container {
-
     -ms-flex: 0 0 66.666667%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
-
-
 }
-
-
 .profile {
     -ms-flex: 0 0 33.333333%;
--webkit-box-flex: 0;
--webkit-flex: 0 0 33.333333%;
-flex: 0 0 33.333333%;
-max-width: 33.333333%;
-
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    background-color: white;
 }
-
-
 .row {
     display: flex;
     flex-direction: row;
 }
+.card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #025157;
+}
+.customer-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.result {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item-1 img {
+    position: relative;
+    width: 26px;
+    padding-top: 24px;
+    padding-right: 10px
+}
+.item-2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: -.5px;
+    color: #828282;
+    margin-right: 20px;
+}
+.profile img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
-
-
-
+.container {
+    background-color: #a1d683;
+}
