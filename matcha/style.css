@@ -78,7 +78,7 @@ li {
     margin: 100px auto;
     align-items: center;
     margin-top: 285px;
-    text-align: center;
+    align-items: center;
 }
 .explanatory-video {
     display: flex;
@@ -206,7 +206,22 @@ li {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .container {
     background-color: #a1d683;
+}
+.input {
+    border-left: 1px solid #025157;
+    border-top: 1px solid #025157;
+    border-bottom: 1px solid #025157;
+    height: 48px;
+    margin-right: 0;
+    display: block;
+    color: #4a4a4a;
+    border-radius: 5px;
+}
+.ads {
+    display: flex;
+}
+.publish {
+    margin-left: 25px;
 }
