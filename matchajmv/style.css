@@ -1,0 +1,216 @@
+body {
+    background-color: #fffbf7;
+}
+
+h1 {
+    color: #46484c;
+    text-align: center;
+
+}
+
+p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+
+
+.header {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+    position: fixed;
+background-color: white;
+padding-bottom: 45px;
+width: 100%;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+
+
+  }
+
+.header > * {
+    display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .logo > img {
+    height: 100%;
+  }
+
+  .navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+
+  }
+
+
+  .menu-item {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+  }
+
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .actions a {
+    color: #67b54b;
+  }
+
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+
+  .navbar-nav {
+    display: flex;
+    width: 70%;
+  }
+
+
+main {
+  margin-top: 100px;
+}
+
+
+.sing-in {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+
+}
+
+
+.sing-in-button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 5px;
+
+}
+
+.sing-in a {
+  color: #67b54b;
+  margin-right: 15px;
+
+
+}
+
+
+main h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+main h4 {
+color: #46484c;
+font-family: "Slabo 27px", serif;
+font-size: 15px;
+margin-bottom: 30px;
+font-weight: 500;
+text-align: center;
+
+}
+
+.actions1 {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.actions1 > input {
+
+border: 1px solid #b6b6b6;
+padding: 6px 20px;
+width: 60%;
+max-width: 250px;
+height: 25px;
+border-radius: 8px;
+
+
+
+}
+
+.actions1 > button {
+
+background-color: #025157;
+color: #fff;
+border: none;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+padding: 6px 20px;
+margin-left: -10px;
+
+}
+
+p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner {
+  text-align: center;
+}
+
+
+.banner img {
+
+  width: 250px;
+   height: 30px;
+
+}
+
+
+
+

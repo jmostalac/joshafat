@@ -131,19 +131,8 @@ li {
     color: #fff;
 }
 .logos__cont__inn {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: left;
-    -webkit-align-items: left;
-    -ms-flex-align: left;
     align-items: left;
-    -webkit-box-pack: left;
-    -webkit-justify-content: left;
-    -ms-flex-pack: left;
     justify-content: left;
-    max-width: 900px;
     margin: 0 auto;
 }
 .flex-container {
@@ -159,8 +148,20 @@ li {
     -webkit-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    background-color: white;
+
+
+
 }
+
+
+
+.container1{
+    display: flex;
+
+}
+
+
+
 .row {
     display: flex;
     flex-direction: row;
@@ -199,12 +200,19 @@ li {
     color: #828282;
     margin-right: 20px;
 }
+
+
+.profile {
+    max-width: 21.19%;
+}
+
 .profile img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
 }
 .container {
     background-color: #a1d683;
@@ -224,4 +232,19 @@ li {
 }
 .publish {
     margin-left: 25px;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(5, 330px);
+}
+
+
+
+.features-art {
+margin: 10px;
+background-color: violet;
+
 }
