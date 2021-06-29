@@ -1,47 +1,91 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title>Matcha</title>
-  </head>
-  <body>
+<html lang="en">
 
-      <h1>Reto 1</h1>
-      <h2 class="reto1">Lorem ipsum</h2>
-      <h3 class="reto1">Lorem ipsum</h3>
-      <h4 class="reto1">Lorem ipsumf</h4>
-      <h5 class="reto1">Lorem issspsum</h5>
-      <h6 class="reto1">Lorem ipsum</h6>
-      
-      <p>Lorem ipsum dolor sit, amet <strong>RETO 2</strong> Dolor quod, adipisci perspiciatis ad voluptates nesciunt obcaecati quos delectus modi, voluptas magni repellendus praesentium tempore possimus inventore recusandae sunt asperiores beatae?</p>
-      <form action="">
-        <input type="email" name="" id="">
-        <button type="submit">Try it now &rarr;</button>   
-      </form><br>
-      <h2>Reto 3 - Formulario</h2>
-      <h3>
-        Utiliza los elementos que vimos para crear un formulario donde pueda poner: Nombre, Apellido, Edad, Email y Contraseña.</h3>
-      <form action="">
-        <label for="formulario">Nombre</label>
-        <p></p>
-        <input type="text" name="name" id="name" placeholder="Ingresa tu nombre">
-        <p>Apellido</p>
-        <input type="text" name="lastname" id="lastname" placeholder="Ingresa tu apellido">
-        <p>Edad</p>
-        <input type="number" name="age" id="age" placeholder="Edad" min="18" max="100">
-        <p>Email</p>
-        <input type="email" name="email" id="email" placeholder="Pucha tu email aquí">
-        <p>Contraseña</p>
-        <input type="password" name="password" id="password" placeholder="Contraseña">
-        <br>
-        <br>
-        <button type="submit">Enviar </button><br><br>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <section class="fixed-header">
+    <header class="header">
+      <a href="/" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+      </a>
+      <nav class="navbar">
+        <ul>
+          <li class="menu-item">Platform</li>
+          <li class="menu-item">Pricing</li>
+          <li class="menu-item">Customers</li>
+          <li class="menu-item">Resources</li>
+          <li class="menu-item">Abouts</li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </div>
+    </header>
+  </section>
+
+
+
+  <main>
+    <h1> Mi primer etiqueta </h1>
+    <h2> Mi etiqueta </h2>
+    <h3>Mi etiqueta</h3>
+    <h4>Mi etiqueta</h4>
+    <h5>Mi etiqueta</h5>
+    <h6>Mi etiqueta</h6>
+
+    <p>
+      <b>Mi etiqueta</b> parrafo
+    </p>
+  </main>
+
+  <form class="publish">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="fname" required><br><br>
+    <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+    <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+
+  <section class="promo">
+    <article class="explanatory-video">
+      <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source type="video/webm"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
+        <source type="video/mp4"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
+      </video>
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works" />
+    </article>
+    <article class="publish">
+      <h3>Publish to your blog in minutes, not hours.</h3>
+      <p>
+        Your blog is your most powerful asset to build, engage, and retain a loyal
+        audience. But you don’t have hours to create content that may or may not
+        work. With Matcha, instantly publish from our library of 10,000+
+        professionally written articles and build your email list faster with our
+        powerful conversion tool.
+      </p>
+      <form>
+        <p>Start publishing today:</p>
+        <div>
+          <input type="text" placeholder="Enter email" />
+          <button>Start My Trial</button>
+        </div>
       </form>
-
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="imagen">
-
-
-  </body>
-</html>
+    </article>
+  </section>

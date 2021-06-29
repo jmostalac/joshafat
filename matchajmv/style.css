@@ -1,130 +1,98 @@
 body {
-    background-color: #fffbf7;
+  background-color: #fffbf7;
 }
-
 h1 {
-    color: #46484c;
-    text-align: center;
-
+  color: #46484c;
+  text-align: center;
 }
-
 p {
-    color: #8b8b8bcc;
-    font-family: verdana;
-    font-size: 20px;
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
 }
-
 button {
-    color: #fff;
-    background-color: #025157;
+  color: #fff;
+  background-color: #025157;
 }
-
-
 .header {
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-    position: fixed;
-background-color: white;
-padding-bottom: 45px;
-width: 100%;
-left: 0px;
-right: 0px;
-top: 0px;
-z-index: 500;
-
-
-
-
-  }
-
-.header > * {
-    display: inline-block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+  position: fixed;
+  background-color: white;
+  padding-bottom: 45px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 500;
+}
+.header>* {
+  display: inline-block;
   font-size: 16px;
   vertical-align: middle;
   height: 100%;
   line-height: 45px;
-  }
-
-  .logo {
-    width: 15%;
-  }
-
-  .logo > img {
-    height: 100%;
-  }
-
-  .navbar {
-    width: 70%;
-    text-align: center;
-    color: #025157;
-    font-weight: 500;
-
-  }
-
-
-  .menu-item {
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-
-
-  .actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-  }
-
-  .actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
-  .actions a {
-    color: #67b54b;
-  }
-
-  .actions button {
-    color: white;
-    background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
-    border-radius: 5px;
-  }
-
-  .menu-item {
-    display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-
-
-  .navbar-nav {
-    display: flex;
-    width: 70%;
-  }
-
-
+}
+.logo {
+  width: 15%;
+}
+.logo>img {
+  height: 100%;
+}
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+.menu-item {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+.actions>* {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.actions a {
+  color: #67b54b;
+}
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.navbar-nav {
+  display: flex;
+  width: 70%;
+}
 main {
   margin-top: 100px;
 }
-
-
 .sing-in {
   float: right;
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-
 }
-
-
 .sing-in-button {
   color: white;
   background-color: #67b54b;
@@ -135,134 +103,93 @@ main {
   border: 0;
   border-radius: 5px;
   margin-right: 5px;
-
 }
-
 .sing-in a {
   color: #67b54b;
   margin-right: 15px;
-
-
 }
-
-
 main h1 {
   color: #025157;
   font-family: "Alegreya", serif;
   font-size: 40px;
   margin-bottom: 24px;
 }
-
 main h4 {
-color: #46484c;
-font-family: "Slabo 27px", serif;
-font-size: 15px;
-margin-bottom: 30px;
-font-weight: 500;
-text-align: center;
-
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-align: center;
 }
-
 .actions1 {
   display: flex;
   justify-content: center;
-
-
 }
-
-.actions1 > input {
-
-border: 1px solid #b6b6b6;
-padding: 6px 20px;
-width: 60%;
-max-width: 250px;
-height: 25px;
-border-radius: 8px;
-
-
-
+.actions1>input {
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+  height: 25px;
+  border-radius: 8px;
 }
-
-.actions1 > button {
-
-background-color: #025157;
-color: #fff;
-border: none;
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
-padding: 6px 20px;
-margin-left: -10px;
-border-radius: 0px 8px 8px 0px;
-
+.actions1>button {
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
+  border-radius: 0px 8px 8px 0px;
 }
-
 p {
   text-align: center;
   margin-top: 50px;
 }
-
 .banner {
   text-align: center;
 }
-
-
 .banner img {
-
   width: 250px;
-   height: 30px;
-
+  height: 30px;
 }
-
 .intro {
-text-align: center;
-
+  text-align: center;
 }
-
 #intro-imagen {
-  width:70%
+  width: 70%
 }
-
 .video {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-
 .publish h3 {
   font-family: "Alegreya", serif;
   font-size: 40px;
   line-height: 48px;
   color: #025157;
-
 }
-
 .publish {
   margin-left: 20px;
 }
-
 .publish p {
-
   text-align: left;
 }
-
-
 .promo {
   display: flex;
-max-width: 70%;
-margin: 20px auto;
-align-items: center;
+  max-width: 70%;
+  margin: 20px auto;
+  align-items: center;
 }
-
-
 .features {
   background-color: #025157;
   padding: 5% 10%;
   display: grid;
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
-
 }
-
 .features .feature-card {
   margin-bottom: 30px;
   margin-left: 15px;
@@ -274,36 +201,26 @@ align-items: center;
   align-items: center;
   overflow: hidden;
 }
-
-
-.features .feature-card .feature-content > * {
+.features .feature-card .feature-content>* {
   margin-bottom: 1rem;
   margin-top: 0;
 }
-
 .features .feature-card .feature-content img {
   width: 50px;
 }
-
-.features .feature-card .feature-content > * {
+.features .feature-card .feature-content>* {
   margin-bottom: 1rem;
   margin-top: 0;
 }
-
-
-
-
 .features .feature-card .feature-content {
   padding: 30px 20px 40px 40px;
   flex: 2;
 }
-
 .features .feature-card .feature-content h3 {
   font-size: 24px;
   color: #343434;
   font-weight: 400;
 }
-
 .features .feature-card .feature-image {
   flex: 1;
   width: 40%;
@@ -311,20 +228,15 @@ align-items: center;
   right: -50px;
   height: 80%;
 }
-
 .arreglo-img {
-height: 150px;
-
+  height: 150px;
 }
-
 .features .feature-card .feature-content a {
   font-size: 16px;
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
 }
-
-
 .success-stories {
   background-color: #a1d683;
   padding: 5% 15%;
@@ -332,55 +244,42 @@ height: 150px;
   align-items: center;
   justify-content: space-around;
 }
-
 .success-stories .overview h2 {
   font-family: "Alegreya", serif;
   font-size: 51px;
   line-height: 61px;
   color: #025157;
 }
-
 .success-stories .overview {
   flex: 2;
   padding-right: 100px;
-
 }
-
 .success-stories .overview img {
   width: 500px;
   max-width: 100%;
 }
-
-
 .success-stories .stories-carousel {
   flex: 1;
 }
-
 .carousel {
   position: relative;
 }
-
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
   background-color: white;
 }
-
-
 .success-stories .stories-carousel .card .card-media img {
-    width: 100%;
-    max-height: 16vw;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-
 .tarjeta {
   text-align: left;
 }
-
 .matcha-button {
-
   font-size: 14px;
   padding: 12px 12px 6px 12px;
   border-radius: 8px;
@@ -388,18 +287,13 @@ height: 150px;
   font-weight: 600;
   margin-left: 0;
   background-color: #025157;
-color: #fff;
-border: none;
-
+  color: #fff;
+  border: none;
 }
-
-
 .tarjetita {
   margin: 0 0 auto;
 }
-
 .company {
-
   position: absolute;
   bottom: 29em;
   right: 20px;
@@ -410,47 +304,33 @@ border: none;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 .everly {
   color: #025157;
-font-size: 18px;
-font-weight: 600;
-line-height: 20px;
-margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
 }
-
-
 .early {
   font-size: 25px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 20px;
-
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
-
-
-
-
 .results img {
   width: 25px;
   margin-right: 20px;
   height: 40px;
 }
-
 .results p {
-
   margin-top: 0;
   font-size: 1em;
 }
-
 .results {
-
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-
 .card-footer button {
   display: block;
   margin-left: 0;
@@ -460,19 +340,15 @@ margin-bottom: 20px;
   padding: 12px 20px;
   width: 100%;
   margin-bottom: 20px;
-
-border-top: unset;
+  border-top: unset;
 }
-
-.success-stories .stories-carousel .card .card-body, .success-stories .stories-carousel .card .card-footer
-{
+.success-stories .stories-carousel .card .card-body,
+.success-stories .stories-carousel .card .card-footer {
   padding: 25px;
 }
-
 .carousel-inner {
   border-radius: 15px;
 }
-
 .how-does-it-work .title {
   color: #025157;
   font-size: 50px;
@@ -482,7 +358,6 @@ border-top: unset;
   margin-bottom: 8px;
   text-align: center;
 }
-
 .how-does-it-work .description {
   max-width: 60%;
   color: #46484c;
@@ -490,11 +365,9 @@ border-top: unset;
   font-weight: 400;
   line-height: 1.5;
   margin: 0 auto;
-      margin-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 16px;
 }
-
-
 .how-does-it-work button {
   font-size: 14px;
   font-weight: 600;
@@ -505,19 +378,14 @@ border-top: unset;
   margin-top: 6px;
   text-align: center;
 }
-
 .how-does-it-work {
   text-align: center;
 }
-
-
 .how-does-it-work .steps {
   margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-
 .how-does-it-work .steps .card-step {
   background-color: #fff;
   border: 1px solid #dadada;
@@ -526,27 +394,71 @@ border-top: unset;
   margin-right: 20px;
   text-align: left;
 }
-
-
 .how-does-it-work .steps .card-step .card-step-image .card-step-bg {
   width: 100%;
   height: 100%;
 }
-
-
 .how-does-it-work .steps .card-step .card-step-image {
   position: relative;
   height: 350px;
 }
-
-
 .how-does-it-work .steps .card-step .card-step-image .card-step-icon {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 21px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
 }
-
 .how-does-it-work .steps .card-step {
   text-align: center;
+}
+@media (max-width: 575px) {
+  body {
+    background-color: rgb(89, 224, 107);
+  }
+  .navbar,
+  .actions {
+    display: none;
+  }
+  main h1 {
+    font-size: 30px;
+    color: rgb(116, 17, 116);
+  }
+  main {
+    margin-top: 90px;
+  }
+  .banner>img {
+    width: 100%;
+  }
+  .publish>form {
+    flex-direction: column;
+  }
+  .publish>form>div {
+    height: 50px;
+    margin-top: 20px;
+  }
+  .publish>form>div>input {
+    width: 70%;
+  }
+  .promo {
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .explanatory-video>video {
+    width: 80%;
+  }
+  .publish {
+    margin-top: 15px;
+  }
+  .publish>h3 {
+    font-size: 25px;
+  }
+  .features {
+    grid-template: repeat(1, auto) / auto;
+  }
+  .feature-image {
+    display: none;
+  }
+  video {
+    width: 80%;
+  }
 }
